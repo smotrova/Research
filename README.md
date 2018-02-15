@@ -1,5 +1,5 @@
 # Research
-My Publications, Posters,  PhD Thesis(RU), Thesis Summary(EN)
+My Publications, [Posters](/Poster%20Presentations),  [PhD Thesis(RU)](/PhD%20Thesis/Thesis), [Thesis Summary(EN)](/PhD%20Thesis/Summary-Thesis.pdf)
 
 ## Publications
 
