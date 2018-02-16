@@ -1,0 +1,78 @@
+!=============================================================================
+! test matrix initialization for the case M=3
+
+		s=1
+
+		CALL CBessel_func (n+1, nu(s)*kapa*ro(s), CJ1)		
+
+		CALL CHankel_func (n+1, nu(s)*kapa*ro(s), Hnk1)
+
+		CALL CBessel_func (n+1, nu(s+1)*kapa*ro(s), CJ2)		
+
+		CALL CHankel_func (n+1, nu(s+1)*kapa*ro(s), Hnk2)
+
+		a(1,1) = CJ1(n)
+		a(1,2) = -CJ2(n)
+		a(1,3) = (0.0D0, 0.0D0)
+		a(1,4) = -HNK2(n)
+		a(1,5) = (0.0D0, 0.0D0)
+		a(1,6) = (0.0D0, 0.0D0)
+		
+		a(2,1) = 1/nu(s)*(-CJ1(n+1) + n/nu(s)/kapa/ro(s)*CJ1(n))
+		a(2,2) = -1/nu(s+1)*(-CJ2(n+1) + n/nu(s+1)/kapa/ro(s)*CJ2(n))
+		a(2,3) =(0.0D0, 0.0D0)
+		a(2,4) =-1/nu(s+1)*(-Hnk2(n+1) + n/nu(s+1)/kapa/ro(s)*Hnk2(n))
+		a(2,5) =(0.0D0, 0.0D0)
+		a(2,6) = (0.0D0, 0.0D0)
+
+
+		s=2
+
+		CALL CBessel_func (n+1, nu(s)*kapa*ro(s), CJ1)		
+
+		CALL CHankel_func (n+1, nu(s)*kapa*ro(s), Hnk1)
+
+		CALL CBessel_func (n+1, nu(s+1)*kapa*ro(s), CJ2)		
+
+		CALL CHankel_func (n+1, nu(s+1)*kapa*ro(s), Hnk2)
+
+		a(3,1) = (0.0D0, 0.0D0)
+		a(3,2) = CJ1(n)
+		a(3,3) = -CJ2(n)
+		a(3,4) = HNK1(n)
+		a(3,5) = -HNK2(n)
+		a(3,6) = (0.0D0, 0.0D0)
+		
+		a(4,1) = (0.0D0, 0.0D0)
+		a(4,2) = 1/nu(s)*(-CJ1(n+1) + n/nu(s)/kapa/ro(s)*CJ1(n))
+		a(4,3) = -1/nu(s+1)*(-CJ2(n+1) + n/nu(s+1)/kapa/ro(s)*CJ2(n))
+		a(4,4) =1/nu(s)*(-Hnk1(n+1) + n/nu(s)/kapa/ro(s)*Hnk1(n))
+		a(4,5) =-1/nu(s+1)*(-Hnk2(n+1) + n/nu(s+1)/kapa/ro(s)*Hnk2(n))
+		a(4,6) = (0.0D0, 0.0D0)
+
+
+		s=3
+
+		CALL CBessel_func (n+1, nu(s)*kapa*ro(s), CJ1)		
+		CALL CHankel_func (n+1, nu(s)*kapa*ro(s), Hnk1)
+		CALL CBessel_func (n+1, nu(s+1)*kapa*ro(s), CJ2)		
+		CALL CHankel_func (n+1, nu(s+1)*kapa*ro(s), Hnk2)
+
+		a(5,1) = (0.0D0, 0.0D0)
+		a(5,2) = (0.0D0, 0.0D0)
+		a(5,3) = CJ1(n)
+		a(5,4) = (0.0D0, 0.0D0)
+		a(5,5) = Hnk1(n)
+		a(5,6) =  -Hnk2(n)
+		
+		a(6,1) = (0.0D0, 0.0D0)
+		a(6,2) = (0.0D0, 0.0D0)
+		a(6,3) = 1/nu(s)*(-CJ1(n+1) + n/nu(s)/kapa/ro(s)*CJ1(n))
+		a(6,4) = (0.0D0, 0.0D0)
+		a(6,5) = 1/nu(s)*(-Hnk1(n+1) + n/nu(s)/kapa/ro(s)*Hnk1(n))
+		a(6,6) = -1/nu(s+1)*(-Hnk2(n+1) + n/nu(s+1)/kapa/ro(s)*Hnk2(n))
+
+
+
+
+!=============================================================================

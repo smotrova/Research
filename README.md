@@ -1,7 +1,8 @@
 # Research
-My Publications, [Posters](/Poster%20Presentations),  [PhD Thesis(RU)](/PhD%20Thesis/Thesis), [Thesis Summary(EN)](/PhD%20Thesis/Summary-Thesis.pdf)
 
-## Publications
+[PhD Thesis](/PhD%20Thesis/Thesis), [Thesis Summary](/PhD%20Thesis/Summary-Thesis.pdf), [Thesis Defence Presentation](/PhD%20Thesis/Presentation-Thesis-Defence.pdf), [Posters](/Poster%20Presentations)
+
+## Journal Papers
 
 1. [E.I. Smotrova, A.I. Nosich, "Optical coupling of an active microdisk to a passive one: effect on the lasing thresholds of the whispering-gallery supermodes," Optics Letters, vol. 38, no 12, pp. 2059-2061, 2013.](/Journal%20Papers/oplet2013-laser.pdf)
 
