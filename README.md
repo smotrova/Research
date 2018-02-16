@@ -1,6 +1,6 @@
 # Research
 
-[PhD Thesis](/PhD%20Thesis/Thesis), [Thesis Summary](/PhD%20Thesis/Summary-Thesis.pdf), [Thesis Defence Presentation](/PhD%20Thesis/Presentation-Thesis-Defence.pdf), [Posters](/Poster%20Presentations)
+[PhD Thesis](/PhD%20Thesis/Thesis), [Thesis Summary](/PhD%20Thesis/Summary-Thesis.pdf), [Thesis Defence Presentation](/PhD%20Thesis/Presentation-Thesis-Defence.pdf), [Posters](/Posters)
 
 ## Journal Papers
 
